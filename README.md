@@ -6,7 +6,7 @@ and with the help of the Edmonds-Karp algorithm the program calculates the maxim
 (Terminal.class is pre given)
 
 Interaction example:
-1 > add ABC a4b;a2c;b1d;b3c;c6d\n
+1 > add ABC a4b;a2c;b1d;b3c;c6d/n
 2 Added new escape network with identifier ABC.\n
 3 > list\n
 4 ABC 4\n
