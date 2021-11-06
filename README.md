@@ -10,44 +10,44 @@ Interaction example:<br/>
 2 Added new escape network with identifier ABC.<br/>
 3 > list<br/>
 4 ABC 4<br/>
-5 > print ABC\n
-6 a4b\n
-7 a2c\n
-8 b3c\n
-9 b1d\n
-10 c6d\n
-11 > flow ABC a d\n
-12 6
-13 > list ABC
-14 6 a d
-15 > add ABC a5d
-16 Added new section a5d to escape network ABC.
-17 > print ABC
-18 a4b
-19 a2c
-20 a5d
-21 b3c
-22 b1d
-23 c6d
-24 > list ABC
-25 EMPTY
-26 > add XYZ a10b;a10c;b2c;b4d;b8e;c9e;d10f;e10f;e6d
-27 Added new escape network with identifier XYZ.
-28 > list
-29 XYZ 6
-30 ABC 4
-31 > print XYZ
-32 a10b
-33 a10c
-34 b2c
-35 b4d
-36 b8e
-37 c9e
-38 d10f
-39 e6d
-40 e10f
-41 > flow XYZ a f
-42 19
-43 > list XYZ
-44 19 a f
-45 > quit
+5 > print ABC<br/>
+6 a4b<br/>
+7 a2c<br/>
+8 b3c<br/>
+9 b1d<br/>
+10 c6d<br/>
+11 > flow ABC a d<br/>
+12 6<br/>
+13 > list ABC<br/>
+14 6 a d<br/>
+15 > add ABC a5d<br/>
+16 Added new section a5d to escape network ABC.<br/>
+17 > print ABC<br/>
+18 a4b<br/>
+19 a2c<br/>
+20 a5d<br/>
+21 b3c<br/>
+22 b1d<br/>
+23 c6d<br/>
+24 > list ABC<br/>
+25 EMPTY<br/>
+26 > add XYZ a10b;a10c;b2c;b4d;b8e;c9e;d10f;e10f;e6d<br/>
+27 Added new escape network with identifier XYZ.<br/>
+28 > list<br/>
+29 XYZ 6<br/>
+30 ABC 4<br/>
+31 > print XYZ<br/>
+32 a10b<br/>
+33 a10c<br/>
+34 b2c<br/>
+35 b4d<br/>
+36 b8e<br/>
+37 c9e<br/>
+38 d10f<br/>
+39 e6d<br/>
+40 e10f<br/>
+41 > flow XYZ a f<br/>
+42 19<br/>
+43 > list XYZ<br/>
+44 19 a f<br/>
+45 > quit<br/>
