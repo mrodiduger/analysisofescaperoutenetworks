@@ -6,17 +6,17 @@ and with the help of the Edmonds-Karp algorithm the program calculates the maxim
 (Terminal.class is pre given)
 
 Interaction example:
-1 > add ABC a4b;a2c;b1d;b3c;c6d
-2 Added new escape network with identifier ABC.
-3 > list
-4 ABC 4
-5 > print ABC
-6 a4b
-7 a2c
-8 b3c
-9 b1d
-10 c6d
-11 > flow ABC a d
+1 > add ABC a4b;a2c;b1d;b3c;c6d\n
+2 Added new escape network with identifier ABC.\n
+3 > list\n
+4 ABC 4\n
+5 > print ABC\n
+6 a4b\n
+7 a2c\n
+8 b3c\n
+9 b1d\n
+10 c6d\n
+11 > flow ABC a d\n
 12 6
 13 > list ABC
 14 6 a d
