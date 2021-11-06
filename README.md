@@ -1,15 +1,15 @@
 # route-graph-maximal-flow-calculator
-The program analyzes escape networks in directed graph form and manages them with some commands.
+The program analyzes escape networks in directed graph form and manages them with some commands.<br/>
 
-It is written as a part of a first semester Java programming course. The program takes a directed graph as an input. Every edge of the graph has a pre-given capacity
-and with the help of the Edmonds-Karp algorithm the program calculates the maximal flow from a start node to an end node.
+It is written as a part of a first semester Java programming course. The program takes a directed graph as an input. Every edge of the graph has a pre-given capacity<br/>
+and with the help of the Edmonds-Karp algorithm the program calculates the maximal flow from a start node to an end node.<br/>
 (Terminal.class is pre given)
 
-Interaction example:
-1 > add ABC a4b;a2c;b1d;b3c;c6d/n
-2 Added new escape network with identifier ABC.\n
-3 > list\n
-4 ABC 4\n
+Interaction example:<br/>
+1 > add ABC a4b;a2c;b1d;b3c;c6d<br/>
+2 Added new escape network with identifier ABC.<br/>
+3 > list<br/>
+4 ABC 4<br/>
 5 > print ABC\n
 6 a4b\n
 7 a2c\n
